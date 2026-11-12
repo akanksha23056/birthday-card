@@ -7,7 +7,7 @@ export const heroContent = {
   // Phrases shown on the sticky notes in the Hero section (Act 1)
   stickyNotes: [
     { text: "my favorite person!", rotation: -6, color: "bg-yellow-100/90" },
-    { text: "24 & iconic ✨", rotation: 8, color: "bg-pink-100/90" },
+    { text: "21 & iconic ✨", rotation: 8, color: "bg-pink-100/90" },
     { text: "always and forever ❤️", rotation: -4, color: "bg-purple-100/90" }
   ],
   // Washi tape strips in the Hero section
@@ -83,7 +83,7 @@ You are my anchor, my favorite adventure, and my home. Watching you grow, laugh,
 
 Thank you for being you, for your beautiful heart, and for making my world so much brighter.<br/><br/>
 
-Happy 24th Birthday, my love. Here's to forever.<br/><br/>
+Happy 21st Birthday, my love. Here's to forever.<br/><br/><div style="margin: 20px auto; max-width: 260px; background: #fff; padding: 12px 12px 24px 12px; border-radius: 4px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); transform: rotate(-2deg); border: 1px solid #f0e6d2;"><img src="/images/photo-7.jpg" alt="Special memory" style="width: 100%; height: auto; border-radius: 2px; display: block;" /><p style="margin: 10px 0 0 0; text-align: center; font-family: cursive, sans-serif; font-size: 14px; color: #555;">forever with you ✨</p></div><br/>
 
 Always yours,<br/>
 [Your Name]`,
