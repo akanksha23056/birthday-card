@@ -1,3 +1,4 @@
+This is a digital birthday card i made for my best friend's birthday, hope you like it!
 link to the website: https://happy-birthday-sonam-diary.netlify.app
 # React + Vite
 
