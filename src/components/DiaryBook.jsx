@@ -371,17 +371,30 @@ export const DiaryBook = ({ audioEnabled = true }) => {
             </div>
           ))}
 
-          {/* Page 7: Blank Page before Finale */}
+          {/* Page 7: Framed 7th Photo before Finale */}
           <div 
             ref={el => mobilePagesRef.current[7] = el}
             className="absolute inset-0 rounded-lg overflow-hidden preserve-3d"
           >
-            <div className="w-full h-full p-8 flex flex-col justify-between items-center bg-[#FFFDF9] bg-paper paper-grain shadow-inner">
-              <div className="font-handwriting text-xl text-brand-dark/40 mt-8">One last page...</div>
-              <svg className="w-16 h-16 text-rose-400 animate-pulse" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z" />
-              </svg>
-              <div className="font-handwriting text-lg text-brand-dark/40 mb-8">keep scrolling ❤️</div>
+            <div className="w-full h-full p-6 flex flex-col justify-between items-center bg-[#FFFDF9] bg-paper paper-grain shadow-inner">
+              <div className="font-handwriting text-xl text-brand-dark/60 mt-2">One last memory before the letter... ✨</div>
+              
+              {/* Beautiful Polaroid Frame for 7th photo */}
+              <div className="relative p-2.5 bg-white shadow-xl border border-gray-100 flex flex-col items-center rotate-[-2deg] max-w-[230px] my-auto">
+                <div className="w-full aspect-[4/5] bg-[#FCFBF7] overflow-hidden border border-gray-100/80">
+                  <img 
+                    src="/images/photo-7.jpg" 
+                    alt="Our favorite memory" 
+                    className="w-full h-full object-cover grayscale-[5%] contrast-[95%]"
+                    loading="eager"
+                  />
+                </div>
+                <div className="mt-2.5 font-handwriting text-base text-brand-dark/80">
+                  forever with you ❤️
+                </div>
+              </div>
+
+              <div className="font-handwriting text-base text-brand-dark/40 mb-2">keep scrolling for your letter 💌</div>
             </div>
             <div className="shadow-overlay absolute inset-0 bg-black opacity-0 pointer-events-none z-30" />
           </div>
@@ -559,18 +572,26 @@ export const DiaryBook = ({ audioEnabled = true }) => {
                 />
                 <div className="shadow-overlay absolute inset-0 bg-black opacity-0 pointer-events-none z-30" />
               </div>
-              {/* Back: Page 7 (Blank Page) */}
+              {/* Back: Page 7 (Framed 7th Photo facing letter on Page 8) */}
               <div className="page-face page-back rounded-l-lg overflow-hidden">
-                <div className="w-full h-full p-10 flex flex-col justify-between items-center bg-[#FFFDF9] bg-paper paper-grain">
-                  <div className="font-handwriting text-2xl text-brand-dark/40 mt-12">
-                    A letter to you...
+                <div className="w-full h-full p-8 flex flex-col justify-between items-center bg-[#FFFDF9] bg-paper paper-grain">
+                  <div className="font-handwriting text-2xl text-brand-dark/60 mt-2">
+                    A special memory for you... ✨
                   </div>
                   
-                  {/* Subtle pulsing heart sticker */}
-                  <div className="relative w-16 h-16 flex items-center justify-center">
-                    <svg className="w-12 h-12 text-rose-400 animate-pulse fill-current" viewBox="0 0 24 24">
-                      <path d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z" />
-                    </svg>
+                  {/* Polaroid Frame for 7th photo */}
+                  <div className="relative p-3 bg-white shadow-xl border border-gray-100 flex flex-col items-center rotate-[-3deg] max-w-[260px] my-auto">
+                    <div className="w-full aspect-[4/5] bg-[#FCFBF7] overflow-hidden border border-gray-100/80">
+                      <img 
+                        src="/images/photo-7.jpg" 
+                        alt="Special memory" 
+                        className="w-full h-full object-cover grayscale-[5%] contrast-[95%]"
+                        loading="eager"
+                      />
+                    </div>
+                    <div className="mt-3 font-handwriting text-lg text-brand-dark/80">
+                      forever with you ❤️
+                    </div>
                   </div>
                   
                   <div className="font-handwriting text-lg text-brand-dark/30 select-none">
