@@ -21,26 +21,26 @@ export const diaryPages = [
   {
     pageNumber: 1,
     // Swap this with your actual image path, e.g. "/images/beach_trip.jpg"
-    image: "/images/photo-1.jpg", 
-    imageAlt: "A lovely memory of us",
+    image: "/images/photo-1.jpg",
+    imageAlt: "A lovely [first] memory of us",
     caption: "where it all began... 📍",
-    message: "Remember when we first met? I was so nervous, but the moment you laughed, all my fears melted away. This page is dedicated to that very first spark that started it all.",
+    message: "Remember when we first met? couldn't find a picture lol. kitne bachhe lag rahe hai yaar ismei TT. This page is dedicated to that very first spark that started it all.",
     bgColor: "bg-[#FFFDF4]" // Warm ivory
   },
   {
     pageNumber: 2,
     image: "/images/photo-2.jpg",
     imageAlt: "Cute coffee date photo",
-    caption: "coffee dates & gossip ☕",
-    message: "Our endless conversations over lukewarm coffee. We could talk about absolutely nothing for hours and still feel like we ran out of time. You make the mundane feel magical.",
+    caption: "when you visited pehli baar",
+    message: "Our endless conversations over mess ke chole bhature. We could talk about absolutely nothing for hours and still feel like we ran out of time. You make the mundane feel magical.",
     bgColor: "bg-[#FAFAFA]" // Soft white
   },
   {
     pageNumber: 3,
     image: "/images/photo-3.jpg",
     imageAlt: "Late night adventures",
-    caption: "midnight drives 🚗🌙",
-    message: "Those late-night drives when we had nowhere to go, blasting our favorite playlist, singing at the top of our lungs. The city lights had nothing on the brightness of your smile.",
+    caption: "your first boquet tehe",
+    message: "Those metro mei milna when we had nowhere to go, yapping nonstop, singing at the top of our lungs. The city lights have nothing on the brightness of your smile.",
     bgColor: "bg-[#FDF6F0]" // Creamy peach
   },
   {
@@ -48,23 +48,23 @@ export const diaryPages = [
     image: "/images/photo-4.jpg",
     imageAlt: "Sonam smiling",
     caption: "pure happiness! 😊⭐",
-    message: "I love this photo of you because it captures your essence so perfectly. Your laugh is my favorite sound in the world, and I promise to keep doing silly things just to hear it.",
+    message: "when i visited you! loved this  day sm, when I got to see how you roll everyday",
     bgColor: "bg-[#FAF7F0]" // Warm stone
   },
   {
     pageNumber: 5,
     image: "/images/photo-5.jpg",
     imageAlt: "Our favorite trip together",
-    caption: "lost in paradise ✈️🌴",
-    message: "That weekend getaway when we got completely lost, ended up in the wrong town, and had the absolute best day of our lives anyway. With you, every detour is a beautiful adventure.",
+    caption: "the way you shine <3",
+    message: "Oh how i love to see you succeed and ascend, every achievement of yours, whehter its big or small, always matters to me. You, matter to me.",
     bgColor: "bg-[#FFFBF0]" // Pale vanilla
   },
   {
     pageNumber: 6,
     image: "/images/photo-6.jpg",
     imageAlt: "A cozy rainy day",
-    caption: "cozy rainy afternoons 🌧️❤️",
-    message: "Sharing an umbrella, getting our shoes soaked, and coming back to share hot chocolate under a mountain of blankets. There is no storm we can't weather together.",
+    caption: "cozy afternoons ❤️",
+    message: "I love this photo of you because it captures your essence so perfectly. Your laugh is my favorite sound in the world, and I promise to keep doing silly things just to hear it.",
     bgColor: "bg-[#F7F6FB]" // Ice lavender
   }
 ];
@@ -86,10 +86,10 @@ Thank you for being you, for your beautiful heart, and for making my world so mu
 Happy 21st Birthday, my love. Here's to forever.<br/><br/><div style="margin: 20px auto; max-width: 260px; background: #fff; padding: 12px 12px 24px 12px; border-radius: 4px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); transform: rotate(-2deg); border: 1px solid #f0e6d2;"><img src="/images/photo-7.jpg" alt="Special memory" style="width: 100%; height: auto; border-radius: 2px; display: block;" /><p style="margin: 10px 0 0 0; text-align: center; font-family: cursive, sans-serif; font-size: 14px; color: #555;">forever with you ✨</p></div><br/>
 
 Always yours,<br/>
-[Your Name]`,
-  
-  signature: "the end. i love you. ❤️",
-  
+Akanksha`,
+
+  signature: "i love you, always and forever.❤️",
+
   // Enable typing clicking sound effects
   audioEnabledByDefault: true
 };
